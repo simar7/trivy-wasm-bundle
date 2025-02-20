@@ -1,0 +1,39 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/simar7/trivy-wasm-bundle
+cpu: Apple M1 Pro
+BenchmarkLoadRego
+BenchmarkLoadRego-10                  	     100	    295875 ns/op	  162044 B/op	    3306 allocs/op
+BenchmarkLoadRego-10                  	     100	    286923 ns/op	  161882 B/op	    3305 allocs/op
+BenchmarkLoadRego-10                  	     100	    306760 ns/op	  161658 B/op	    3305 allocs/op
+BenchmarkLoadRego-10                  	     100	    279762 ns/op	  161697 B/op	    3305 allocs/op
+BenchmarkLoadRego-10                  	     100	    282465 ns/op	  161751 B/op	    3305 allocs/op
+BenchmarkLoadRego-10                  	     100	    274816 ns/op	  161858 B/op	    3305 allocs/op
+BenchmarkLoadRego-10                  	     100	    284720 ns/op	  161789 B/op	    3306 allocs/op
+BenchmarkLoadRego-10                  	     100	    286623 ns/op	  161852 B/op	    3305 allocs/op
+BenchmarkLoadRego-10                  	     100	    283540 ns/op	  161811 B/op	    3306 allocs/op
+BenchmarkLoadRego-10                  	     100	    257760 ns/op	  161865 B/op	    3305 allocs/op
+BenchmarkLoadRegoWithPrecompile
+BenchmarkLoadRegoWithPrecompile-10    	     100	    362858 ns/op	  213823 B/op	    4486 allocs/op
+BenchmarkLoadRegoWithPrecompile-10    	     100	    380682 ns/op	  213659 B/op	    4485 allocs/op
+BenchmarkLoadRegoWithPrecompile-10    	     100	    402571 ns/op	  213684 B/op	    4486 allocs/op
+BenchmarkLoadRegoWithPrecompile-10    	     100	    379159 ns/op	  213656 B/op	    4486 allocs/op
+BenchmarkLoadRegoWithPrecompile-10    	     100	    384596 ns/op	  213752 B/op	    4486 allocs/op
+BenchmarkLoadRegoWithPrecompile-10    	     100	    382000 ns/op	  213709 B/op	    4486 allocs/op
+BenchmarkLoadRegoWithPrecompile-10    	     100	    367383 ns/op	  213729 B/op	    4486 allocs/op
+BenchmarkLoadRegoWithPrecompile-10    	     100	    367358 ns/op	  213671 B/op	    4486 allocs/op
+BenchmarkLoadRegoWithPrecompile-10    	     100	    374742 ns/op	  213618 B/op	    4485 allocs/op
+BenchmarkLoadRegoWithPrecompile-10    	     100	    387188 ns/op	  213800 B/op	    4486 allocs/op
+BenchmarkLoadWASM
+BenchmarkLoadWASM-10                  	     100	  23054638 ns/op	  153972 B/op	     367 allocs/op
+BenchmarkLoadWASM-10                  	     100	  25432104 ns/op	  153895 B/op	     367 allocs/op
+BenchmarkLoadWASM-10                  	     100	  23534801 ns/op	  153912 B/op	     367 allocs/op
+BenchmarkLoadWASM-10                  	     100	  36481724 ns/op	  153860 B/op	     366 allocs/op
+BenchmarkLoadWASM-10                  	     100	  24837646 ns/op	  153903 B/op	     367 allocs/op
+BenchmarkLoadWASM-10                  	     100	  25273614 ns/op	  153952 B/op	     367 allocs/op
+BenchmarkLoadWASM-10                  	     100	  23193500 ns/op	  153902 B/op	     367 allocs/op
+BenchmarkLoadWASM-10                  	     100	  26679349 ns/op	  153890 B/op	     367 allocs/op
+BenchmarkLoadWASM-10                  	     100	  23295436 ns/op	  153859 B/op	     366 allocs/op
+BenchmarkLoadWASM-10                  	     100	  24309406 ns/op	  153888 B/op	     367 allocs/op
+PASS
+ok  	github.com/simar7/trivy-wasm-bundle	27.247s

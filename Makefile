@@ -14,3 +14,7 @@ run:
 
 bench:
 	go test -v -bench=. -benchtime=100x -count=10 .
+
+report:
+	go test -v -bench=. -benchtime=100x -count=10 . > benchmark.txt
+	go run pkg/reporter/benchmark-output-generator.go benchmark.txt 
